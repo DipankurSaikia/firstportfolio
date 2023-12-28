@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+ html{
+    /* background: url('main.jpg') center center/cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;*/
+    background-color: #0088a9;
+    color: white;
+    z-index: -1; 
+    
+} 
+
+#navbar{
+    display: flex;
+    background-color: black;
+    position: sticky;
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid red; */
+    justify-content: flex-end;
+}
+/* #navbar::before{
+    content: "";
+    background-color: black;
+    position: sticky;
+     position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}*/  
+
+#navbar h2{
+    color: white;
+    /* border: 2px solid red; */
+    margin: auto 2px;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+#navbar ul{
+    display: flex;
+    /* background-color: black; */
+    /* position: absolute;
+    top: 25px; */
+
+}
+
+#navbar ul li{
+    list-style: none;
+    margin: auto 10px;
+    border-radius: 10px;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    /* border:2px solid red; */
+    border-radius: 10px;
+}
+#navbar ul li a:hover{
+    color: red;
+}
+.btn:hover{
+    background-color: red
+}
+
+.btn{
+    background-color: #0088a9;
+    border: none;
+    border-radius: 10px;
+    padding: auto 2px;
+    font-size: 1.2rem;
+    color: white;
+}
+
+/* About Me Section */
+
+#about{
+     background-color: #123e48;
+    height: 200px;
+    width: 600px;
+    /* border: 2px solid red; */
+    border-radius: 30px;
+    position: absolute;
+    left: 20px;
+    top: 200px;
+}
+
+#about h2{
+  /* border: 2px solid green; */
+  margin: 5px 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p{
+    margin: 30px 20px;
+    text-align: left;
+    font-family: kalnia;
+}
+
+.myimage #img{
+    position: absolute;
+    right: 90px;
+    top: 200px;
+    height:400px;
+    /* border: 2px solid red; */
+    }
+
+    img{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+    }
+
+
+
